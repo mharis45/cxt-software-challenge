@@ -1,0 +1,11 @@
+node_modules/
+dist/
+allure-results/
+allure-report/
+*.log
+.DS_Store
+.idea/
+
+# The APK is downloaded by the setup step in README.md rather than committed —
+# keeps the repo small and always points at a specific, verifiable release.
+apps/*.apk
